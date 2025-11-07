@@ -1,32 +1,165 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
 body{
-    background-color: rgb(30, 29, 36);
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1rem;
-    width: 100%;
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    height: 150vh;
     padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
     /* letter-spacing: 0.5rem; */
-}
-*{
-    color: white;
-    font-weight:normal;
-    
-    
+    /* background-image: url(ChatGPT\ Image\ Oct\ 17\,\ 2025\,\ 11_44_38\ PM.png); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
 
 }
-.btn{
-    border-color: white;
-    border-style: solid;
-    padding: 1rem 2rem;
-    border-radius: 0.7rem;
-    border-width: 0.1rem;
-    max-width: 500px;
+*{
+    
+
+
+}
+
+.index_1{
+    display: flex;
+    margin:auto;
+    width: 90vw;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.096);
+    backdrop-filter: blur(7px);
+    color: white;
+    text-shadow: 0 0 10px black;
+    border-radius: 10px;
+    flex-direction: column;
+    max-width: 650px;
+}
+
+h1{
+  background-color: #66a1b900; 
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 2.1rem;
+  padding: 0px;
+  margin: 10px;
+}
+
+ul{
+    padding-left: 20px;
+}
+li{
+    margin-left: 20px;
+}
+
+.legume{
+    background-color: rgba(240, 248, 255, 0);
+    width: 100%;
+    
     margin: auto;
-    margin-top: 2rem;
+    /* padding: 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box{
+    background-color: rgba(0, 0, 0, 0.068);
+    margin: 10px;
+    padding: 10px;
+    min-width: 8rem;
+    text-align: center;
+    border-radius: 12px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 20px black;
+    border-style: solid;
+    border-width: 0.1px;
+    border-color: rgba(255, 255, 255, 0.182);
+    /* height: 1000px; */
+}
+.box img{
+    width: 8em;
+    height: 8em;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.box p
+{
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #66a2b9;
+    border-radius: 5px;
+}
+.box a{
+    border-style: solid;
+    border-radius: 0.2rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    text-shadow: 0 0 10px black;
     
 }
-h1{
-  background-color: rgb(70, 70, 70);  
-  padding: 0px;
-  margin: 0px;
+span{
+position: relative;
+top: 6px;
+
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 200,
+  'GRAD' 0,
+  'opsz' 20
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 0,
+  'GRAD' 0,
+  'opsz' 24;
+  color:white;
+}
+
+p{
+    color: white;
+}
+.contact{
+    margin-left: 40px;
+    font-size: 1.3rem;
+    
+    
+}
+.contact a{
+    /* text-decoration: ; */
+    color: rgb(0, 195, 255);
+}
+.facebook{
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 1.2rem;
+}
+.index_2{
+    background-color: #66a2b9;
+    display: flex;
+    margin:auto;
+    width: 90vw;
+    padding: 10px;
+    padding-bottom: 30px;
+    background-color: rgba(114, 114, 114, 0.116);
+    backdrop-filter: blur(7px);
+    color: white;
+    text-shadow: 0 0 10px black;
+    border-radius: 10px;
+    flex-direction: column;
+    max-width: 650px;
 }
